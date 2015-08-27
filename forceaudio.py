@@ -2,6 +2,11 @@
 
 """
 Simple script to force the audio device and levels for audio in and out
+
+FIXME: Specifically add other devices (eg. JabraSpeak)
+FIXME: Determine optimum input and output volumes for other device types
+FIXME: Build a dictionary of preferred devices, set options, priority
+
 """
 
 import sys
