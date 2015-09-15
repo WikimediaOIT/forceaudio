@@ -16,12 +16,23 @@ device_prefs = {
         'preference' : 100,
         'volume_out': 50,
         'volume_in' : 70,
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37ba615c38aafd8e192af8f585c50a56a022c350
         },
     'Jabra SPEAK' : {
         'preference' : 90,
         'volume_out': 83,
         'volume_in' : 100,
+<<<<<<< HEAD
+=======
+    },
+    'Phnx Spider' : {
+        'preference' : 110,
+        'volume_out': 60,
+        'volume_in' : 60,
+>>>>>>> 37ba615c38aafd8e192af8f585c50a56a022c350
     },
     'MDR-10RBT' : {
         'preference' : 10,
