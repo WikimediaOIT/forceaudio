@@ -14,14 +14,14 @@ import subprocess
 device_prefs = {
     'Chat' : {
         'preference' : 100,
-        'volume_out': 80,
-        'volume_in' : 80,
+        'volume_out': 50,
+        'volume_in' : 70,
 
         },
     'Jabra SPEAK' : {
         'preference' : 90,
-        'volume_out': 50,
-        'volume_in' : 50,
+        'volume_out': 83,
+        'volume_in' : 100,
     },
     'MDR-10RBT' : {
         'preference' : 10,
@@ -35,7 +35,7 @@ debug=True
 # cli utility to change audio device, found on github
 # https://github.com/deweller/switchaudio-osx
 # needs to be compiled with xcode and 'installed' somehwhere locally
-audioswitcher='./audioswitcher'
+audioswitcher='/Users/administrator/forceaudio/audioswitcher'
 
 def run_me(cmd):
     p = subprocess.Popen(cmd, shell=True,
