@@ -14,14 +14,18 @@ import subprocess
 device_prefs = {
     'Chat' : {
         'preference' : 100,
-        'volume_out': 80,
-        'volume_in' : 80,
-
+        'volume_out': 50,
+        'volume_in' : 70,
         },
     'Jabra SPEAK' : {
         'preference' : 90,
-        'volume_out': 50,
-        'volume_in' : 50,
+        'volume_out': 83,
+        'volume_in' : 100,
+    },
+    'Phnx Spider' : {
+        'preference' : 110,
+        'volume_out': 60,
+        'volume_in' : 60,
     },
     'MDR-10RBT' : {
         'preference' : 10,
