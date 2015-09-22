@@ -6,6 +6,7 @@ Simple script to force the audio device and levels for audio in and out
 FIXME: Determine optimum input and output volumes for other device types
 """
 
+import os
 import sys
 import subprocess
 
@@ -39,7 +40,7 @@ debug=True
 # cli utility to change audio device, found on github
 # https://github.com/deweller/switchaudio-osx
 # needs to be compiled with xcode and 'installed' somehwhere locally
-audioswitcher='/Users/administrator/forceaudio/audioswitcher'
+audioswitcher='%s/forceaudio/audioswitcher' % os.getenv("HOME")
 
 def run_me(cmd):
     p = subprocess.Popen(cmd, shell=True,
