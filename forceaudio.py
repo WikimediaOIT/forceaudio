@@ -12,21 +12,22 @@ import subprocess
 
 # Device preferences
 # (higher preference level means USE ME FIRST)
+# volume_out and volume_in are a %
 device_prefs = {
     'Chat' : {
         'preference' : 100,
-        'volume_out': 50,
+        'volume_out': 70,
         'volume_in' : 70,
         },
     'Jabra SPEAK' : {
         'preference' : 90,
-        'volume_out': 83,
+        'volume_out': 70,
         'volume_in' : 100,
     },
     'Phnx Spider' : {
         'preference' : 110,
-        'volume_out': 60,
-        'volume_in' : 60,
+        'volume_out': 35,
+        'volume_in' : 90,
     },
     'MDR-10RBT' : {
         'preference' : 10,
